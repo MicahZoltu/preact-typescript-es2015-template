@@ -1,14 +1,13 @@
 <body>
-	<script type='module' src='./vendor/es-module-shims/es-module-shims.js'></script>
-	<script type='importmap-shim'>
+	<script async type='module' src='./vendor/es-module-shims/es-module-shims.js'></script>
+	<script type='importmap'>
 		{
 			"imports": {
 				"es-module-shims": "./vendor/es-module-shims/es-module-shims.js",
 				"preact": "./vendor/preact/preact.module.js",
-				"preact/jsx-runtime": "./vendor/preact/jsx-runtime/jsxRuntime.module.js",
-				"@zoltu/ethereum-crypto": "./vendor/@zoltu/ethereum-crypto/index.js"
+				"preact/jsx-runtime": "./vendor/preact/jsx-runtime/jsxRuntime.module.js"
 			}
 		}
 	</script>
-	<script type='module-shim' src='./js/index.js'></script>
+	<script type='module' src='./js/index.js'></script>
 </body>
