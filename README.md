@@ -1,3 +1,6 @@
+# **DEPRECATED**
+Use https://github.com/Zoltu/preact-es2015-template instead.
+
 # preact-typescript-es2015-template
 Minimal dependency project that uses preact, TypeScript, and ES modules (via es-module-shims).
 
